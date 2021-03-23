@@ -12,10 +12,10 @@ PhpMyAdmin http://localhost:8000
 
 Now you can use http methods with /cars or /cars/{id}
 
-GET /cars - All cars  
-GET /cars/{id} - Car with certain id  
+localhost/cars - To get all cars  
+localhost/cars/6 - Car with certain id  
   
-POST /cars - Insert new car, provide form-data "brand" and "model"  
+
   
 PUT /cars/{id} - Update car with json  
 PUT /{id} Example  
