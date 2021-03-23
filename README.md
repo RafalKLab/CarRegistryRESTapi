@@ -1,13 +1,10 @@
 # CarRegistry
 
-**In WWW directory create a .htaccess file with such code:**  
-  RewriteEngine On  
-  RewriteCond %{REQUEST_FILENAME} !-f  
-  RewriteRule ^(.+)$ index.php?q=$1 [L,QSA]  
-
 Run a docker compose file with docker-compose up -d  
-Service will be launched on a localhost  
-localhost:80  
+http://localhost/cars
+
+PhpMyAdmin
+http://localhost:8000
 
 PhpMyAdmin is on port 8000 
 - System: MySQL  
