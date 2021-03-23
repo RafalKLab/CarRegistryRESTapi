@@ -1,10 +1,9 @@
 # CarRegistry
 
 Run a docker compose file with docker-compose up -d  
-http://localhost/cars
+Main page: http://localhost/cars
 
-PhpMyAdmin
-http://localhost:8000
+PhpMyAdmin http://localhost:8000
 
 PhpMyAdmin is on port 8000 
 - System: MySQL  
